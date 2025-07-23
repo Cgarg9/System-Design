@@ -1,4 +1,4 @@
-# Load Balancing - Simple System Design Guide
+# Load Balancing
 
 Load balancing is like having a **smart traffic director** for your servers. Instead of all users going to one server (which would crash it), a load balancer spreads the traffic across multiple servers so everyone gets served quickly.
 

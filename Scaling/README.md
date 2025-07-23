@@ -1,4 +1,4 @@
-# Scaling in System Design - Simple Guide
+# Scaling in System Design
 
 Scaling is how we make systems handle more users and traffic without breaking down. Think of it like expanding a restaurant - you can either make your kitchen bigger or add more kitchens!
 
