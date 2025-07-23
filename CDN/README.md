@@ -137,3 +137,54 @@ CDNs are optimized for different types of content:
 ```
 Product Images → CDN Edge Servers → Faster page loads → Better user experience → Higher conversion rates
 ```
+
+### Video Streaming Services
+```
+Software Downloads → CDN Distribution → Faster downloads → Better user satisfaction
+```
+
+### News Websites
+```
+Breaking News + Images → CDN → Instant global distribution → Timely information delivery
+```
+
+## Implementation Considerations
+
+### Cache Control
+- **Time-to-Live (TTL)** - How long content stays cached
+- **Cache Headers** - Control what gets cached and for how long
+- **Purging Strategies** - Remove outdated content from cache
+
+### Geographic Strategy
+- **PoP Placement** - Where to locate edge servers
+- **Regional Compliance** - Data sovereignty and legal requirements
+- **Performance Monitoring** - Track response times by region
+
+### Cost Optimization
+- **Bandwidth Pricing** - Different costs for different regions
+- **Cache Hit Ratios** - Higher ratios mean better cost efficiency
+- **Traffic Patterns** - Optimize based on user behavior
+
+## Getting Started with CDNs
+
+### For Beginners
+1. **Start with free options** - Try Google CDN for common libraries
+2. **Use cloud provider CDNs** - If already on AWS, try CloudFront
+3. **Focus on static content first** - Images, CSS, JavaScript
+
+### For Production
+1. **Analyze your traffic patterns** - Understand where your users are
+2. **Choose the right provider** - Consider performance, cost, and features
+3. **Implement proper monitoring** - Track cache hit rates and performance
+4. **Plan for cache invalidation** - How to update content quickly
+
+## Key Takeaways
+
+- **CDNs speed up websites** by serving content from locations closer to users
+- **Multiple benefits** - performance, reliability, cost savings, and security
+- **Essential for global applications** but may be overkill for local businesses
+- **Choose the right strategy** - push vs pull caching, single vs multi-tier
+- **Monitor and optimize** - track performance and adjust configuration as needed
+- **Start simple** - begin with static content and expand from there
+
+CDNs are like having **express lanes for your website traffic** - they ensure your content reaches users quickly and reliably, no matter where they are in the world. For any serious web application expecting global traffic, a CDN isn't just nice to have – it's essential infrastructure!
