@@ -82,3 +82,21 @@ Caching is a **technique that stores copies of frequently accessed data in a fas
 ---
 
 **Caching** is a cornerstone for building responsive, scalable systems. By selecting appropriate layers, patterns, and policies, you can dramatically improve performance while controlling cost and complexity.
+
+
+# Common Caching Services
+
+Below are widely used caching services categorized by their type and typical use cases.
+
+| Category                   | Service                              | Description                                                                                                                              |
+|----------------------------|--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| In-Memory Key-Value Stores | **Redis**                            | Open-source, in-memory data store supporting strings, hashes, lists, sets, sorted sets, bitmaps, streams, geospatial indexes, persistence, replication, clustering, and Lua scripting. |
+|                            | **Memcached**                        | Simple, high-performance in-memory object cache; multithreaded, O(1) operations, no persistence or advanced data types; ideal for pure caching. |
+| Distributed Cache Services | **Amazon ElastiCache**               | Fully managed AWS service supporting both Redis and Memcached engines, with automatic provisioning, scaling, patching, and multi-AZ failover. |
+|                            | **Azure Cache for Redis**            | Managed Redis service on Azure with built-in clustering, persistence, geo-replication, and enterprise security/compliance features.   |
+|                            | **Google Cloud Memorystore**         | Fully managed Redis and Memcached compatible service on GCP, offering high availability, automatic failover, and seamless integration with Google Cloud monitoring. |
+| JVM-Based Caches           | **Ehcache**                          | Robust, standards-based Java cache supporting in-process and out-of-process deployments, JCache API, persistence, and clustering (Terracotta). |
+|                            | **Caffeine**                         | High-performance Java caching library inspired by Guava, offering near-optimal eviction policies, asynchronous refresh, and stats tracking. |
+| Application-Level Caches   | **Guava Cache**                      | In-process, thread-safe Java cache with configurable eviction, expiration, and removal listeners; suitable for single-node applications. |
+| Edge / CDN Caches          | **Akamai**, **CloudFront**, **Fastly** | Global networks of edge servers caching static and dynamic web assets (HTML, CSS, JavaScript, images, video segments) to reduce latency and origin load. |
+| HTTP Reverse-Proxy Caches  | **Varnish Cache**, **Squid**         | Specialized HTTP accelerators that cache web responses on the server side, with flexible configuration for complex caching rules. |
