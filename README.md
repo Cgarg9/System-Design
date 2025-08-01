@@ -11,7 +11,7 @@ This repository collects essential system design concepts, organized into focuse
 - [DNS](https://github.com/Cgarg9/System-Design/tree/main/DNS)  
 - [Internet Protocol (IP)](https://github.com/Cgarg9/System-Design/tree/main/Internet%20Protocol)  
 - [Load Balancer](https://github.com/Cgarg9/System-Design/tree/main/Load%20Balancer)  
-- [Query Services](https://github.com/Cgarg9/System-Design/tree/main/Queue%20Services)  
+- [Queue Services](https://github.com/Cgarg9/System-Design/tree/main/Queue%20Services)  
 - [Scaling](https://github.com/Cgarg9/System-Design/tree/main/Scaling)  
 
 ## Getting Started
@@ -30,7 +30,7 @@ Each folder contains a `README.md` with:
 3. **Follow the learning flow**  
 a. Start with **Communication Protocols** and **Internet Protocol** to understand network fundamentals.  
 b. Move to **DNS**, **Load Balancer**, and **API Gateway** for request routing and traffic management.  
-c. Study **Cache**, **CDN**, and **Query Services** to optimize data retrieval and service performance.  
+c. Study **Cache**, **CDN**, and **Queue Services** to optimize data retrieval and service performance.  
 d. Explore **Scaling** principles to learn vertical/horizontal scaling techniques and design patterns.  
 4. **Hands-on practice**  
 - Run example code in each folder  
