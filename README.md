@@ -11,7 +11,7 @@ This repository collects essential system design concepts, organized into focuse
 - [DNS](https://github.com/Cgarg9/System-Design/tree/main/DNS)  
 - [Internet Protocol (IP)](https://github.com/Cgarg9/System-Design/tree/main/Internet%20Protocol)  
 - [Load Balancer](https://github.com/Cgarg9/System-Design/tree/main/Load%20Balancer)  
-- [Query Services](https://github.com/Cgarg9/System-Design/tree/main/Query%20Services)  
+- [Query Services](https://github.com/Cgarg9/System-Design/tree/main/Queue%20Services)  
 - [Scaling](https://github.com/Cgarg9/System-Design/tree/main/Scaling)  
 
 ## Getting Started
